@@ -1,0 +1,16 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.game-title {
+  font-size: 3rem;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--color-primary);
+  text-shadow: 0 0 10px var(--color-primary);
+}

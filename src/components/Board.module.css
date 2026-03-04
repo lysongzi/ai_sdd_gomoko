@@ -1,0 +1,19 @@
+.board {
+  display: grid;
+  width: 90vmin;
+  height: 90vmin;
+  max-width: 800px;
+  max-height: 800px;
+  background-color: var(--color-board);
+  border: 2px solid var(--color-primary);
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.2);
+  margin: 20px auto;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .board {
+    width: 95vmin;
+    height: 95vmin;
+  }
+}

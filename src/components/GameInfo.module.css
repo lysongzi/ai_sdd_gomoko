@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  color: var(--color-text);
+}
+
+.status {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.player {
+  font-weight: bold;
+}
+
+.player.black {
+  color: #aaa;
+  text-shadow: 0 0 5px #aaa;
+}
+
+.player.white {
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
+}
+
+.resetButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.2);
+}
+
+.resetButton:hover {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+  box-shadow: 0 0 20px var(--color-primary);
+}

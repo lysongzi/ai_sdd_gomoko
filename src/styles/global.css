@@ -1,0 +1,29 @@
+:root {
+  --color-bg: #0f0f1f;
+  --color-primary: #00f0ff; /* Cyan */
+  --color-secondary: #ff00ff; /* Magenta */
+  --color-board: #1a1a2e;
+  --color-grid: #2a2a4e;
+  --color-black-piece: #000000;
+  --color-white-piece: #ffffff;
+  --color-text: #e0e0e0;
+  --shadow-neon-cyan: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
+  --shadow-neon-magenta: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
